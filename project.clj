@@ -1,4 +1,4 @@
-(defproject cljss-units "0.1.0"
+(defproject cljss-units "0.1.1-SNAPSHOT"
   :description "Units handling extensions for cljss."
   
   :url ""
