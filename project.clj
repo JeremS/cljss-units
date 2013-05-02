@@ -1,7 +1,7 @@
 (defproject cljss-units "0.2.0"
-  :description "Units handling extensions for cljss."
+  :description "Extensions adding units for cljss."
 
-  :url ""
+  :url "https://github.com/JeremS/cljss-units"
 
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
