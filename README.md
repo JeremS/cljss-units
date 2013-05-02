@@ -1,22 +1,11 @@
 # cljss-units
 
-Extension to cljss allowing to use a units system.
-
-The library use algo.generics and has one conflict
-with clojure.core. A
-```clojure
-(ns my.project
-  (:refer-clojure :exclude (rem + - * / ))
-  (:use cljss.units))
-```
-might be necessary.
-
-## Usage
-
-FIXME
+Extension to cljss allowing to use the unit system
+implemented in the [units](https://github.com/JeremS/units)
+library.
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 FIXME Jérémy  Schoffen.
 
 Distributed under the Eclipse Public License, the same as Clojure.
