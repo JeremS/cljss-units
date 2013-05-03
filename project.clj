@@ -1,4 +1,4 @@
-(defproject jeremys/cljss-units "0.2.0"
+(defproject jeremys/cljss-units "0.2.1"
   :description "Extensions adding units for cljss."
   :url "https://github.com/JeremS/cljss-units"
   :license {:name "Eclipse Public License"
