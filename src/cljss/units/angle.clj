@@ -9,4 +9,5 @@
 (extend-units Degree Gradiant Radiant Turn)
 
 (p/import-vars
- [units.angle deg grad rad turn])
+ [units.angle deg  grad  rad  turn
+              deg? grad? rad? turn?])
