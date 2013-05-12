@@ -6,9 +6,11 @@
         cljss.protocols
         midje.sweet))
 
-(fact "We can compile lengths and angles"
+(fact "We can compile angles"
   (compile-as-property-value (deg 10)) => "10deg"
-  (compile-as-property-value (turn 5)) => "0turn")
+  (compile-as-property-value (turn 5)) => "0turn"
+  (compile-as-selector (deg 10)) => "10deg"
+  (compile-as-selector (turn 5)) => "0turn")
 
 
 (fact "We can use the generic stuff"

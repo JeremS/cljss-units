@@ -5,6 +5,12 @@
 
 (defn- extend-compilation [t]
   `(extend-type ~t
+     CssSelector
+     (compile-as-selector
+      ([this#] (str this#))
+      ([this# _#]
+       (compile-as-selector this#)))
+
      CssPropertyValue
      (compile-as-property-value [this#] (str this#))))
 

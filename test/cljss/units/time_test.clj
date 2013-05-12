@@ -6,9 +6,11 @@
         cljss.protocols
         midje.sweet))
 
-(fact "We can compile lengths and angles"
+(fact "We can compile time units"
   (compile-as-property-value (s 10)) => "10s"
-  (compile-as-property-value (ms 5)) => "5ms")
+  (compile-as-property-value (ms 5)) => "5ms"
+  (compile-as-selector (s 10)) => "10s"
+  (compile-as-selector (ms 5)) => "5ms")
 
 
 (fact "We can use the generic stuff"

@@ -6,9 +6,11 @@
         cljss.protocols
         midje.sweet))
 
-(fact "We can compile lengths and angles"
+(fact "We can compile frequencies"
   (compile-as-property-value (hz 10)) => "10Hz"
-  (compile-as-property-value (khz 5)) => "5kHz")
+  (compile-as-property-value (khz 5)) => "5kHz"
+  (compile-as-selector (hz 10)) => "10Hz"
+  (compile-as-selector (khz 5)) => "5kHz")
 
 
 (fact "We can use the generic stuff"

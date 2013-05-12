@@ -7,9 +7,12 @@
         cljss.protocols
         midje.sweet))
 
-(fact "We can compile lengths and angles"
+(fact "We can compile lengths"
   (compile-as-property-value (px 10)) => "10px"
-  (compile-as-property-value (em -50)) => "-50em")
+  (compile-as-property-value (em -50)) => "-50em"
+  (compile-as-selector (px 10)) => "10px"
+  (compile-as-selector (em -50)) => "-50em")
+
 
 (fact "We can use the generic stuff"
   (ag/+ (in 1) (cm 2.54)) => (cm 5.08)
