@@ -10,7 +10,8 @@
   (compile-as-property-value (dpi 10)) => "10dpi"
   (compile-as-property-value (dppx 5)) => "5dppx"
   (compile-as-selector (dpi 10)) => "10dpi"
-  (compile-as-selector (dppx 5)) => "5dppx")
+  (compile-as-selector (dppx 5)) => "5dppx"
+      (compile-as-selector (dppx 5) {}) => "5dppx")
 
 (fact "We can use the generic stuff"
   (ag/+ (dpcm 2.54) (dpi 1)) => (dpi 2.0)

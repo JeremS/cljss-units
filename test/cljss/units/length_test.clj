@@ -11,7 +11,8 @@
   (compile-as-property-value (px 10)) => "10px"
   (compile-as-property-value (em -50)) => "-50em"
   (compile-as-selector (px 10)) => "10px"
-  (compile-as-selector (em -50)) => "-50em")
+  (compile-as-selector (em -50)) => "-50em"
+  (compile-as-selector (em -50) {}) => "-50em")
 
 
 (fact "We can use the generic stuff"
