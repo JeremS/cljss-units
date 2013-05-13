@@ -4,7 +4,7 @@ Extension to cljss allowing to use the unit system
 implemented in the [units](https://github.com/JeremS/units)
 library.
 
-## Instalation
+## Installation
 In `project.clj`:
 ```clojure
 [jeremys/cljss-units "0.2.1"]
