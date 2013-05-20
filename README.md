@@ -7,7 +7,7 @@ library.
 ## Installation
 In `project.clj`:
 ```clojure
-[jeremys/cljss-units "0.2.1"]
+[jeremys/cljss-units "0.2.2-alpha1"]
 ```
 
 
