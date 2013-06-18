@@ -7,4 +7,5 @@
 
 (fact "We can compile colors"
   (compile-as-property-value (rgba 10 10 10)) => "rgba(10,10,10,1.0)"
-  (compile-as-property-value (hsla 10 10 10)) => "hsla(10,10%,10%,1.0)")
+  (compile-as-property-value (hsla 10 10 10)) => "hsla(10,10%,10%,1.0)"
+  (compile-as-property-value (rgba "#0A0A0A")) => "rgba(10,10,10,1.0)")

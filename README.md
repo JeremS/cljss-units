@@ -7,12 +7,12 @@ library.
 ## Installation
 In `project.clj`:
 ```clojure
-[jeremys/cljss-units "0.2.2-alpha1"]
+[jeremys/cljss-units "0.2.2"]
 ```
 
 
 ## License
 
-Copyright © 2013 FIXME Jérémy  Schoffen.
+Copyright © 2013 Jérémy  Schoffen.
 
 Distributed under the Eclipse Public License, the same as Clojure.
